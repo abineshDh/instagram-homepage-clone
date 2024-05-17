@@ -284,3 +284,30 @@ footer {
     text-align: center;
   }
 }
+
+@media screen and (max-width: 325px) {
+  .main-content .center-text {
+    font-size: 2rem !important;
+    font-weight: bolder !important;
+    margin-bottom: 5px;
+  }
+
+  form button {
+    font-weight: 600;
+  }
+
+  #features h2 {
+    font-size: 2rem !important;
+    font-weight: bolder;
+  }
+
+  #features p {
+    margin-top: 0;
+    margin-bottom: 3rem;
+  }
+
+  #faq-section h2 {
+    font-size: 2rem !important;
+    font-weight: bolder;
+  }
+}
